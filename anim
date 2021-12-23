@@ -5,3 +5,4 @@ hum:Play()
 wait(0.1)
 workspace.Structure.Baseplate.CanCollide = false
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3.5, 0)
+game.Players.LocalPlayer.Character.Animate.Disabled = true
