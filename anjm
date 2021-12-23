@@ -1,0 +1,7 @@
+local anim = Instance.new('Animation')
+anim.AnimationId = 'rbxassetid://181526230'
+local hum = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(anim)
+hum:Play()
+wait(0.1)
+workspace.Structure.Baseplate.CanCollide = false
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3.5, 0)
